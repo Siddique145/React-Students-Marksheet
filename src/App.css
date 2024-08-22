@@ -1,0 +1,191 @@
+/* .maindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: aqua;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.head h1 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bolder;
+}
+
+.add-button {
+  margin-top: 10px;
+  background-color: yellow;
+  color: #0d0606;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.add-button:hover {
+  background-color: rgb(255, 230, 0);
+}
+
+.student-list {
+  padding: 20px;
+}
+
+.student-list h2 {
+  margin-top: 0;
+}
+
+.student-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.student-list li:last-child {
+  border-bottom: none;
+}
+.studentName{
+  color: aqua;
+}
+.fatherName{
+  color: yellow;
+  font-weight: 700;
+
+}
+.rollNumber{
+  color: yellow;
+  font-weight: 800;
+}
+.quiz{
+  color: yellow;
+  font-weight: 900;
+} */
+
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: aqua;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.head h1 {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bolder;
+}
+
+.add-button {
+  margin-top: 10px;
+  background-color: yellow;
+  color: #0d0606;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.add-button:hover {
+  background-color: rgb(255, 230, 0);
+}
+
+.student-list {
+  padding: 20px;
+}
+
+.student-list h2 {
+  margin-top: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: #000000;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.student-card {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.studentName{
+  color: aqua;
+}
+.fatherName{
+  color: yellow;
+  font-weight: 700;
+
+}
+.rollNumber{
+  color: yellow;
+  font-weight: 800;
+}
+.quiz{
+  color: yellow;
+  font-weight: 900;
+}
